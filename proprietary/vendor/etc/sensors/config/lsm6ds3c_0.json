@@ -1,8 +1,8 @@
 {
   "config":
   {
-    "hw_platform": ["MTP", "Surf"],
-    "soc_id": ["400", "440"]
+    "hw_platform": ["QRD", "MTP", "Dragon", "Surf", "HDK", "IDP"],
+    "soc_id": ["356"]
   },
   "lsm6ds3c_0":{
     "owner": "lsm6ds3c",
@@ -102,10 +102,10 @@
         "data": "0"
       },
       "dri_irq_num":{ "type": "int", "ver": "0",
-        "data": "108"
+        "data": "123"
       },
       "irq_pull_type":{ "type": "int", "ver": "0",
-        "data": "2"
+        "data": "0"
       },
       "irq_is_chip_pin":{ "type": "int", "ver": "0",
         "data": "1"
@@ -114,7 +114,7 @@
         "data": "0"
       },
       "irq_trigger_type":{ "type": "int", "ver": "0",
-        "data": "0"
+        "data": "3"
       },
       "num_rail":{ "type": "int", "ver": "0",
         "data": "1"
@@ -141,10 +141,10 @@
         "data": "+x"
       },
       "y":{ "type": "str", "ver": "0",
-        "data": "-y"
+        "data": "+y"
       },
       "z":{ "type": "str", "ver": "0",
-        "data": "-z"
+        "data": "+z"
       }
     },
     ".gyro":{

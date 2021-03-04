@@ -1,8 +1,8 @@
 {
   "config":
   {
-    "hw_platform": ["MTP", "Surf"],
-    "soc_id": ["400", "440"]
+    "hw_platform": ["MTP", "Dragon", "Surf"],
+    "soc_id": ["356"]
   },
   "mot_ltv":{
     "owner": "mot_ltv",
