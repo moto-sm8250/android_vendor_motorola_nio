@@ -10,9 +10,6 @@
       "owner": "mot_devorient",
       "flat_gpio_num":{ "type": "int", "ver": "3",
         "data": "60"
-      },
-      "faceup_gpio_num":{ "type": "int", "ver": "0",
-        "data": "69"
       }
     }
   }
